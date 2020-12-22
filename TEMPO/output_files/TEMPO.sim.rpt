@@ -1,0 +1,239 @@
+Simulator report for TEMPO
+Mon Nov 16 17:35:47 2020
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 50.0 us      ;
+; Simulation Netlist Size     ; 75 nodes     ;
+; Simulation Coverage         ;      97.33 % ;
+; Total Number of Transitions ; 67341        ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone II   ;
++-----------------------------+--------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                                                                                         ;
++--------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+---------------+
+; Option                                                                                     ; Setting                                                                       ; Default Value ;
++--------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+---------------+
+; Simulation mode                                                                            ; Functional                                                                    ; Timing        ;
+; Start time                                                                                 ; 0 ns                                                                          ; 0 ns          ;
+; Simulation results format                                                                  ; VWF                                                                           ;               ;
+; Vector input source                                                                        ; C:/PROJECTS/LABSistemasDigitales/AA_CuboLeds_ProyectoFinal/TEMPO/Waveform.vwf ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On                                                                            ; On            ;
+; Check outputs                                                                              ; Off                                                                           ; Off           ;
+; Report simulation coverage                                                                 ; On                                                                            ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On                                                                            ; On            ;
+; Display missing 1-value coverage report                                                    ; On                                                                            ; On            ;
+; Display missing 0-value coverage report                                                    ; On                                                                            ; On            ;
+; Detect setup and hold time violations                                                      ; Off                                                                           ; Off           ;
+; Detect glitches                                                                            ; Off                                                                           ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off                                                                           ; Off           ;
+; Generate Signal Activity File                                                              ; Off                                                                           ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off                                                                           ; Off           ;
+; Group bus channels in simulation results                                                   ; Off                                                                           ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On                                                                            ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE                                                                    ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off                                                                           ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off                                                                           ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto                                                                          ; Auto          ;
++--------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II 64-Bit to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      97.33 % ;
+; Total nodes checked                                 ; 75           ;
+; Total output ports checked                          ; 75           ;
+; Total output ports with complete 1/0-value coverage ; 73           ;
+; Total output ports with no 1/0-value coverage       ; 2            ;
+; Total output ports with no 1-value coverage         ; 2            ;
+; Total output ports with no 0-value coverage         ; 2            ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++----------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                    ;
++----------------------+----------------------+------------------+
+; Node Name            ; Output Port Name     ; Output Port Type ;
++----------------------+----------------------+------------------+
+; |TEMPO|count~0       ; |TEMPO|count~0       ; out              ;
+; |TEMPO|count~1       ; |TEMPO|count~1       ; out              ;
+; |TEMPO|count~2       ; |TEMPO|count~2       ; out              ;
+; |TEMPO|count~3       ; |TEMPO|count~3       ; out              ;
+; |TEMPO|count~4       ; |TEMPO|count~4       ; out              ;
+; |TEMPO|count~5       ; |TEMPO|count~5       ; out              ;
+; |TEMPO|count~6       ; |TEMPO|count~6       ; out              ;
+; |TEMPO|count~7       ; |TEMPO|count~7       ; out              ;
+; |TEMPO|count~8       ; |TEMPO|count~8       ; out              ;
+; |TEMPO|count~9       ; |TEMPO|count~9       ; out              ;
+; |TEMPO|count~10      ; |TEMPO|count~10      ; out              ;
+; |TEMPO|count~11      ; |TEMPO|count~11      ; out              ;
+; |TEMPO|count[0]      ; |TEMPO|count[0]      ; regout           ;
+; |TEMPO|count[1]      ; |TEMPO|count[1]      ; regout           ;
+; |TEMPO|count[2]      ; |TEMPO|count[2]      ; regout           ;
+; |TEMPO|count[3]      ; |TEMPO|count[3]      ; regout           ;
+; |TEMPO|count[4]      ; |TEMPO|count[4]      ; regout           ;
+; |TEMPO|count[5]      ; |TEMPO|count[5]      ; regout           ;
+; |TEMPO|count[6]      ; |TEMPO|count[6]      ; regout           ;
+; |TEMPO|count[7]      ; |TEMPO|count[7]      ; regout           ;
+; |TEMPO|count[8]      ; |TEMPO|count[8]      ; regout           ;
+; |TEMPO|count[9]      ; |TEMPO|count[9]      ; regout           ;
+; |TEMPO|count[10]     ; |TEMPO|count[10]     ; regout           ;
+; |TEMPO|count[11]     ; |TEMPO|count[11]     ; regout           ;
+; |TEMPO|clk           ; |TEMPO|clk           ; out              ;
+; |TEMPO|tempo_out[0]  ; |TEMPO|tempo_out[0]  ; pin_out          ;
+; |TEMPO|tempo_out[1]  ; |TEMPO|tempo_out[1]  ; pin_out          ;
+; |TEMPO|tempo_out[2]  ; |TEMPO|tempo_out[2]  ; pin_out          ;
+; |TEMPO|tempo_out[3]  ; |TEMPO|tempo_out[3]  ; pin_out          ;
+; |TEMPO|tempo_out[4]  ; |TEMPO|tempo_out[4]  ; pin_out          ;
+; |TEMPO|tempo_out[5]  ; |TEMPO|tempo_out[5]  ; pin_out          ;
+; |TEMPO|tempo_out[6]  ; |TEMPO|tempo_out[6]  ; pin_out          ;
+; |TEMPO|tempo_out[7]  ; |TEMPO|tempo_out[7]  ; pin_out          ;
+; |TEMPO|tempo_out[8]  ; |TEMPO|tempo_out[8]  ; pin_out          ;
+; |TEMPO|tempo_out[9]  ; |TEMPO|tempo_out[9]  ; pin_out          ;
+; |TEMPO|tempo_out[10] ; |TEMPO|tempo_out[10] ; pin_out          ;
+; |TEMPO|tempo_out[11] ; |TEMPO|tempo_out[11] ; pin_out          ;
+; |TEMPO|LessThan0~0   ; |TEMPO|LessThan0~0   ; out0             ;
+; |TEMPO|LessThan0~1   ; |TEMPO|LessThan0~1   ; out0             ;
+; |TEMPO|LessThan0~2   ; |TEMPO|LessThan0~2   ; out0             ;
+; |TEMPO|LessThan0~3   ; |TEMPO|LessThan0~3   ; out0             ;
+; |TEMPO|LessThan0~4   ; |TEMPO|LessThan0~4   ; out0             ;
+; |TEMPO|LessThan0~5   ; |TEMPO|LessThan0~5   ; out0             ;
+; |TEMPO|LessThan0~6   ; |TEMPO|LessThan0~6   ; out0             ;
+; |TEMPO|LessThan0~7   ; |TEMPO|LessThan0~7   ; out0             ;
+; |TEMPO|LessThan0~8   ; |TEMPO|LessThan0~8   ; out0             ;
+; |TEMPO|LessThan0~9   ; |TEMPO|LessThan0~9   ; out0             ;
+; |TEMPO|LessThan0~10  ; |TEMPO|LessThan0~10  ; out0             ;
+; |TEMPO|LessThan0~11  ; |TEMPO|LessThan0~11  ; out0             ;
+; |TEMPO|LessThan0~12  ; |TEMPO|LessThan0~12  ; out0             ;
+; |TEMPO|LessThan0~13  ; |TEMPO|LessThan0~13  ; out0             ;
+; |TEMPO|LessThan0~14  ; |TEMPO|LessThan0~14  ; out0             ;
+; |TEMPO|Add0~0        ; |TEMPO|Add0~0        ; out0             ;
+; |TEMPO|Add0~1        ; |TEMPO|Add0~1        ; out0             ;
+; |TEMPO|Add0~2        ; |TEMPO|Add0~2        ; out0             ;
+; |TEMPO|Add0~3        ; |TEMPO|Add0~3        ; out0             ;
+; |TEMPO|Add0~4        ; |TEMPO|Add0~4        ; out0             ;
+; |TEMPO|Add0~5        ; |TEMPO|Add0~5        ; out0             ;
+; |TEMPO|Add0~6        ; |TEMPO|Add0~6        ; out0             ;
+; |TEMPO|Add0~7        ; |TEMPO|Add0~7        ; out0             ;
+; |TEMPO|Add0~8        ; |TEMPO|Add0~8        ; out0             ;
+; |TEMPO|Add0~9        ; |TEMPO|Add0~9        ; out0             ;
+; |TEMPO|Add0~10       ; |TEMPO|Add0~10       ; out0             ;
+; |TEMPO|Add0~11       ; |TEMPO|Add0~11       ; out0             ;
+; |TEMPO|Add0~12       ; |TEMPO|Add0~12       ; out0             ;
+; |TEMPO|Add0~13       ; |TEMPO|Add0~13       ; out0             ;
+; |TEMPO|Add0~14       ; |TEMPO|Add0~14       ; out0             ;
+; |TEMPO|Add0~15       ; |TEMPO|Add0~15       ; out0             ;
+; |TEMPO|Add0~16       ; |TEMPO|Add0~16       ; out0             ;
+; |TEMPO|Add0~17       ; |TEMPO|Add0~17       ; out0             ;
+; |TEMPO|Add0~18       ; |TEMPO|Add0~18       ; out0             ;
+; |TEMPO|Add0~19       ; |TEMPO|Add0~19       ; out0             ;
+; |TEMPO|Add0~20       ; |TEMPO|Add0~20       ; out0             ;
++----------------------+----------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++----------------------------------------------------+
+; Missing 1-Value Coverage                           ;
++--------------+------------------+------------------+
+; Node Name    ; Output Port Name ; Output Port Type ;
++--------------+------------------+------------------+
+; |TEMPO|rst   ; |TEMPO|rst       ; out              ;
+; |TEMPO|start ; |TEMPO|start     ; out              ;
++--------------+------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++----------------------------------------------------+
+; Missing 0-Value Coverage                           ;
++--------------+------------------+------------------+
+; Node Name    ; Output Port Name ; Output Port Type ;
++--------------+------------------+------------------+
+; |TEMPO|rst   ; |TEMPO|rst       ; out              ;
+; |TEMPO|start ; |TEMPO|start     ; out              ;
++--------------+------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Simulator
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Mon Nov 16 17:35:47 2020
+Info: Command: quartus_sim --simulation_results_format=VWF TEMPO -c TEMPO
+Info (324025): Using vector source file "C:/PROJECTS/LABSistemasDigitales/AA_CuboLeds_ProyectoFinal/TEMPO/Waveform.vwf"
+Info (310003): Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info (310004): Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info (310002): Simulation partitioned into 1 sub-simulations
+Info (328053): Simulation coverage is      97.33 %
+Info (328052): Number of transitions in simulation is 67341
+Info (324045): Vector file TEMPO.sim.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
+Info: Quartus II 64-Bit Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4441 megabytes
+    Info: Processing ended: Mon Nov 16 17:35:47 2020
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:01
+
+

@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\PROJECTS\LABSistemasDigitales\AA_CuboLeds_ProyectoFinal\test_led\simulation\qsim
+vTL
+Z1 I6_0J0;CP1gF<n<W`n7TgL1
+Z2 VEFO?XDmAYfN6nC93ZmD@D1
+Z3 dC:\PROJECTS\LABSistemasDigitales\AA_CuboLeds_ProyectoFinal\test_led\simulation\qsim
+Z4 w1606084008
+Z5 8TL.vo
+Z6 FTL.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+n@t@l
+!i10b 1
+Z9 !s100 @R6;?TCUzZGKC4EQQ6zS[2
+!s85 0
+Z10 !s108 1606084010.012000
+Z11 !s107 TL.vo|
+Z12 !s90 -work|work|TL.vo|
+!s101 -O0
+vTL_vlg_check_tst
+!i10b 1
+!s100 3CE=mzgm4_YinR8Qlj@473
+IBMdNJ4Sn3Ml>8]aKQSPQ@2
+Vzh?=Zf0c0Bc8gTomCNIeP0
+R3
+Z13 w1606084007
+Z14 8TL.vt
+Z15 FTL.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z16 !s108 1606084010.173000
+Z17 !s107 TL.vt|
+Z18 !s90 -work|work|TL.vt|
+!s101 -O0
+R8
+n@t@l_vlg_check_tst
+vTL_vlg_sample_tst
+!i10b 1
+!s100 C7YkeO8AnzVjWWzL0:DW42
+I0X0E4OPm7VlYglbULE[0k3
+Vo=zMa4<>Tc5I8Wg7UJ^>e1
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+n@t@l_vlg_sample_tst
+vTL_vlg_vec_tst
+!i10b 1
+!s100 cSRX>bLFfO=Ij;^;mWi=J1
+I08?g@]V=^B;^zUhSiXASi1
+VZ^2a1_C9bOiIE=_gSUOi_3
+R3
+R13
+R14
+R15
+L0 460
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+n@t@l_vlg_vec_tst

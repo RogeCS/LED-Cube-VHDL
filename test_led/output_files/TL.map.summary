@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat Nov 28 03:16:39 2020
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : TL
+Top-level Entity Name : TL
+Family : Cyclone II
+Total logic elements : 3,136
+    Total combinational functions : 3,136
+    Dedicated logic registers : 108
+Total registers : 108
+Total pins : 75
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

@@ -1,0 +1,143 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# Date created = 15:16:58  November 22, 2020
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		TL_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone II"
+set_global_assignment -name DEVICE EP2C35F672C6
+set_global_assignment -name TOP_LEVEL_ENTITY TL
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "15:16:58  NOVEMBER 22, 2020"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_location_assignment PIN_W23 -to GND_OUT[7]
+set_location_assignment PIN_V23 -to GND_OUT[6]
+set_location_assignment PIN_V25 -to GND_OUT[5]
+set_location_assignment PIN_U21 -to GND_OUT[4]
+set_location_assignment PIN_W25 -to GND_OUT[3]
+set_location_assignment PIN_V24 -to GND_OUT[2]
+set_location_assignment PIN_V26 -to GND_OUT[1]
+set_location_assignment PIN_U20 -to GND_OUT[0]
+set_location_assignment PIN_L20 -to VCC_OUT[7]
+set_location_assignment PIN_J26 -to VCC_OUT[6]
+set_location_assignment PIN_L24 -to VCC_OUT[5]
+set_location_assignment PIN_L19 -to VCC_OUT[4]
+set_location_assignment PIN_L21 -to VCC_OUT[3]
+set_location_assignment PIN_J25 -to VCC_OUT[2]
+set_location_assignment PIN_L23 -to VCC_OUT[1]
+set_location_assignment PIN_L25 -to VCC_OUT[0]
+set_global_assignment -name VHDL_FILE ../TEMPO/TEMPO.vhd
+set_global_assignment -name VHDL_FILE ../CLK_10Hz/CLK_10Hz.vhd
+set_global_assignment -name VHDL_FILE ../Animaciones/pruebas/prueba.vhd
+set_global_assignment -name VHDL_FILE ../CLK_X/CLK_X.vhd
+set_global_assignment -name VHDL_FILE TL.vhd
+set_global_assignment -name CDF_FILE output_files/Chain1.cdf
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_location_assignment PIN_N2 -to CLK
+set_location_assignment PIN_V2 -to RST
+set_location_assignment PIN_V1 -to START
+set_location_assignment PIN_AE23 -to LED_CLK_100
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name VECTOR_OUTPUT_FORMAT VWF
+set_location_assignment PIN_T20 -to VCC_OUT[15]
+set_location_assignment PIN_U25 -to VCC_OUT[14]
+set_location_assignment PIN_U24 -to VCC_OUT[13]
+set_location_assignment PIN_T19 -to VCC_OUT[12]
+set_location_assignment PIN_T21 -to VCC_OUT[11]
+set_location_assignment PIN_U26 -to VCC_OUT[10]
+set_location_assignment PIN_U23 -to VCC_OUT[9]
+set_location_assignment PIN_R19 -to VCC_OUT[8]
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/PROJECTS/LABSistemasDigitales/AA_CuboLeds_ProyectoFinal/test_led/Waveform1.vwf"
+set_location_assignment PIN_R24 -to VCC_OUT[31]
+set_location_assignment PIN_T22 -to VCC_OUT[30]
+set_location_assignment PIN_T24 -to VCC_OUT[29]
+set_location_assignment PIN_T18 -to VCC_OUT[28]
+set_location_assignment PIN_R25 -to VCC_OUT[27]
+set_location_assignment PIN_R20 -to VCC_OUT[26]
+set_location_assignment PIN_T23 -to VCC_OUT[25]
+set_location_assignment PIN_T25 -to VCC_OUT[24]
+set_location_assignment PIN_H26 -to VCC_OUT[23]
+set_location_assignment PIN_K18 -to VCC_OUT[22]
+set_location_assignment PIN_K21 -to VCC_OUT[21]
+set_location_assignment PIN_K24 -to VCC_OUT[20]
+set_location_assignment PIN_H25 -to VCC_OUT[19]
+set_location_assignment PIN_H19 -to VCC_OUT[18]
+set_location_assignment PIN_K19 -to VCC_OUT[17]
+set_location_assignment PIN_K23 -to VCC_OUT[16]
+set_location_assignment PIN_J22 -to VCC_OUT[63]
+set_location_assignment PIN_E25 -to VCC_OUT[62]
+set_location_assignment PIN_D25 -to VCC_OUT[61]
+set_location_assignment PIN_E26 -to VCC_OUT[60]
+set_location_assignment PIN_K26 -to VCC_OUT[59]
+set_location_assignment PIN_M23 -to VCC_OUT[58]
+set_location_assignment PIN_K25 -to VCC_OUT[57]
+set_location_assignment PIN_M22 -to VCC_OUT[56]
+set_location_assignment PIN_F23 -to VCC_OUT[55]
+set_location_assignment PIN_J20 -to VCC_OUT[54]
+set_location_assignment PIN_F26 -to VCC_OUT[53]
+set_location_assignment PIN_P18 -to VCC_OUT[52]
+set_location_assignment PIN_F24 -to VCC_OUT[51]
+set_location_assignment PIN_J21 -to VCC_OUT[50]
+set_location_assignment PIN_F25 -to VCC_OUT[49]
+set_location_assignment PIN_N18 -to VCC_OUT[48]
+set_location_assignment PIN_M20 -to VCC_OUT[47]
+set_location_assignment PIN_M21 -to VCC_OUT[46]
+set_location_assignment PIN_M25 -to VCC_OUT[45]
+set_location_assignment PIN_P24 -to VCC_OUT[44]
+set_location_assignment PIN_M19 -to VCC_OUT[43]
+set_location_assignment PIN_N20 -to VCC_OUT[42]
+set_location_assignment PIN_M24 -to VCC_OUT[41]
+set_location_assignment PIN_N24 -to VCC_OUT[40]
+set_location_assignment PIN_G24 -to VCC_OUT[39]
+set_location_assignment PIN_G25 -to VCC_OUT[38]
+set_location_assignment PIN_H24 -to VCC_OUT[37]
+set_location_assignment PIN_J24 -to VCC_OUT[36]
+set_location_assignment PIN_G23 -to VCC_OUT[35]
+set_location_assignment PIN_K22 -to VCC_OUT[34]
+set_location_assignment PIN_H23 -to VCC_OUT[33]
+set_location_assignment PIN_J23 -to VCC_OUT[32]
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

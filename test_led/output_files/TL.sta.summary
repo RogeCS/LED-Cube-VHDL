@@ -1,0 +1,93 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'CLK'
+Slack : -3.213
+TNS   : -78.533
+
+Type  : Slow Model Setup 'CLK_X:Clock_X|clk_temp'
+Slack : -3.081
+TNS   : -155.478
+
+Type  : Slow Model Setup 'CLK_10Hz:GlobalClock|clk_temp'
+Slack : -1.815
+TNS   : -21.780
+
+Type  : Slow Model Hold 'CLK'
+Slack : -2.534
+TNS   : -5.067
+
+Type  : Slow Model Hold 'CLK_X:Clock_X|clk_temp'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Hold 'CLK_10Hz:GlobalClock|clk_temp'
+Slack : 0.812
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'CLK_X:Clock_X|clk_temp'
+Slack : -3.627
+TNS   : -194.568
+
+Type  : Slow Model Removal 'CLK_X:Clock_X|clk_temp'
+Slack : 2.382
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'CLK'
+Slack : -1.380
+TNS   : -33.380
+
+Type  : Slow Model Minimum Pulse Width 'CLK_X:Clock_X|clk_temp'
+Slack : -0.500
+TNS   : -64.000
+
+Type  : Slow Model Minimum Pulse Width 'CLK_10Hz:GlobalClock|clk_temp'
+Slack : -0.500
+TNS   : -12.000
+
+Type  : Fast Model Setup 'CLK_X:Clock_X|clk_temp'
+Slack : -0.933
+TNS   : -41.614
+
+Type  : Fast Model Setup 'CLK'
+Slack : -0.895
+TNS   : -18.373
+
+Type  : Fast Model Setup 'CLK_10Hz:GlobalClock|clk_temp'
+Slack : -0.308
+TNS   : -3.696
+
+Type  : Fast Model Hold 'CLK'
+Slack : -1.578
+TNS   : -3.156
+
+Type  : Fast Model Hold 'CLK_X:Clock_X|clk_temp'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'CLK_10Hz:GlobalClock|clk_temp'
+Slack : 0.364
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'CLK_X:Clock_X|clk_temp'
+Slack : -1.212
+TNS   : -59.748
+
+Type  : Fast Model Removal 'CLK_X:Clock_X|clk_temp'
+Slack : 1.143
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'CLK'
+Slack : -1.380
+TNS   : -33.380
+
+Type  : Fast Model Minimum Pulse Width 'CLK_X:Clock_X|clk_temp'
+Slack : -0.500
+TNS   : -64.000
+
+Type  : Fast Model Minimum Pulse Width 'CLK_10Hz:GlobalClock|clk_temp'
+Slack : -0.500
+TNS   : -12.000
+
+------------------------------------------------------------

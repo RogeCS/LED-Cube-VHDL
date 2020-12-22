@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\PROJECTS\LABSistemasDigitales\AA_CuboLeds_ProyectoFinal\Animaciones\pruebas\simulation\qsim
+vprueba
+Z1 IZEL[o;1kAdzHEVIC=B81I2
+Z2 VN38R6i[ilB<OW5A^=b3ng3
+Z3 dC:\PROJECTS\LABSistemasDigitales\AA_CuboLeds_ProyectoFinal\Animaciones\pruebas\simulation\qsim
+Z4 w1606550526
+Z5 8prueba.vo
+Z6 Fprueba.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|prueba.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 G:NTe<9k@^W2IzHjEJf^W1
+!s85 0
+Z11 !s108 1606550528.205000
+Z12 !s107 prueba.vo|
+!s101 -O0
+vprueba_vlg_check_tst
+!i10b 1
+!s100 9HIhiDI;79GI0kbNbI6TE3
+I;8m4UC_F9[nQLhelKU]h@1
+VRALR9k<H>@iJmWed0JP>30
+R3
+Z13 w1606550525
+Z14 8prueba.vt
+Z15 Fprueba.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z16 !s108 1606550528.387000
+Z17 !s107 prueba.vt|
+Z18 !s90 -work|work|prueba.vt|
+!s101 -O0
+R9
+vprueba_vlg_sample_tst
+!i10b 1
+Z19 !s100 2UVDM0_9`fRb<Zc<=f:WA3
+Z20 ISi:;30JA?057>Pf_7;7L00
+Z21 VWdA[5JdhHInAJW`;0KZ8U0
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R9
+vprueba_vlg_vec_tst
+!i10b 1
+!s100 TCWh1Ted3`PN_@?:V3B?M1
+IOMeOcH0l;aW_EgUHj?@;f1
+Z22 V?j_<FXW^8W7[8KC^>W6E=2
+R3
+R13
+R14
+R15
+L0 2607
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R9

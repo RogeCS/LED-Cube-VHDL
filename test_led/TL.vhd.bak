@@ -1,0 +1,13 @@
+library ieee;
+use ieee,std_logic_1164.all;
+
+entity TL is
+	VCC : out std_logic;
+	GND : out std_logic
+end TL;
+
+architecture ARC of TL 
+begin
+	VCC <= '1';
+	GND <= '0';
+end ARC;
